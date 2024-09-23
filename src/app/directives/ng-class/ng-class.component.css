@@ -1,0 +1,11 @@
+.large{
+    font-size: 30px;
+}
+
+.blackBorder{
+border: 1px solid black;
+}
+
+.pinkBox{
+    background-color: rgb(203, 203, 223);
+}

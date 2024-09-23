@@ -1,0 +1,23 @@
+<p>ng-for works!</p>
+<h2>İsimler</h2>
+<p *ngFor="let name of names">{{name}}</p>
+<h2>Kullanıcılar</h2>
+<p *ngFor="let user of userList">{{user.id}} - {{user.name}} - {{user.email}}</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>mail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <th>{{user.id}}</th>
+            <th>{{user.name}}</th>
+            <th>{{user.email}}</th>
+                        
+        </tr>
+    </tbody>
+</table>
